@@ -84,12 +84,12 @@ const ArticleList: React.FC = () => {
   const blogPosts = [
     {
       title: "Error: listen EACCES: permission denied 127.0.0.1:3000 in Nodejs/ Express Project",
-      imageUrl: "/A1.png",
+      imageUrl: "./A1.png",
       postUrl: "https://medium.com/p/bb4a50857c06",
     },
     {
       title: "From Raw to Refined: Understanding EDA, Data Preprocessing, and Feature Engineering in Real-World Data Science",
-      imageUrl: "/A2.png",
+      imageUrl: "./A2.png",
       postUrl: "https://medium.com/p/e766985afd03",
     },
     // {
