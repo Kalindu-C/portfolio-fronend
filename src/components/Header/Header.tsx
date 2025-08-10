@@ -21,7 +21,7 @@ const Header: React.FC = () => {
               <ul className="flex space-x-4">
                 <li>
                   <a 
-                    className="text-m text-gray-500 hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
+                    className="font-bold text-m hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
                     href="#home"
                   >
                     Home
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
                 </li>
                 <li>
                   <a 
-                    className="text-m text-gray-500 hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
+                    className="font-bold text-m hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
                     href="#skills"
                   >
                     Skills
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
                 </li>
                 <li>
                   <a 
-                    className="text-m text-gray-500 hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
+                    className="font-bold text-m hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
                     href="#projects"
                   >
                     Projects
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
                 </li>
                 <li>
                   <a 
-                    className="text-m text-gray-500 hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
+                    className="font-bold text-m hover:text-gray-600 no-underline hover:no-underline hover:scale-110 inline-block pr-3" 
                     href="#articles"
                   >
                     Articles
