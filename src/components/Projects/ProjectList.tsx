@@ -12,7 +12,7 @@ const ProjectList: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto justify-center">
           
           {/* CloudSync Project */}
-          <ProjectItem
+          {/* <ProjectItem
             title="EDA Project"
             description="applied Exploratory Data Analysis on a real world dataset"
             // websiteUrl="https://cloudsync.io"
@@ -22,10 +22,10 @@ const ProjectList: React.FC = () => {
               "Utilized Python libraries such as Pandas, Matplotlib, and Seaborn for data visualization",
               "Implemented various statistical techniques to identify trends and patterns in the data",
             ]}
-          />
+          /> */}
 
           {/* RoboFarm Project */}
-          <ProjectItem
+          {/* <ProjectItem
             title="Nill Agents Predictions"
             description="Analyzed an insurance company's dataset to predict agents at risk of failing in the upcoming month."
             githubUrl="https://github.com/johndoe/RoboFarm"
@@ -34,31 +34,31 @@ const ProjectList: React.FC = () => {
               "Applied machine learning algorithms such as Random Forest and XGBoost to predict agent performance",
               "Utilized Python libraries like Scikit-learn and Pandas for data preprocessing and model evaluation",
             ]}
-          />
+          /> */}
 
           { /* QuantumSolver Project */ }
-          {/* <ProjectItem
-            title="QuantumSolver"
-            description="Quantum Computing Simulation Platform"
-            githubUrl="https://github.com/johndoe/QuantumSolver"
+          <ProjectItem
+            title="Fine-tuned LLM on Custom Dataset"
+            description="Fine-tuned a large language model on a custom dataset for improved performance."
+            githubUrl="https://github.com/Kalindu-C/llm_fine-tuning"
             listItems={[
-              "Created a platform to simulate quantum computing algorithms on classical machines",
-              "Implemented Grover's and Shor's algorithms to solve search and factorization problems",
-              "Built using Python's Qiskit library and integrated with IBM Q for quantum simulation",
+              "used open-source models such as Phi-2, Phi-3-mini, DeepSeek-R1-Distill-Llama-8B, and Llama 3.2",
+              "worked with libraries and frameworks including unsloth/transformers and PyTorch",
+              "I gained in-depth understanding of LoRA, QLoRA, tokenization, and related concepts while working with the dataset.",
             ]}
-          /> */}
+          />
 
           {/* SolarEnergyOptimizer Project */}
-          {/* <ProjectItem
-            title="SolarEnergyOptimizer"
-            description="AI-Based Solar Energy Efficiency Optimizer"
-            githubUrl="https://github.com/johndoe/SolarEnergyOptimizer"
+          <ProjectItem
+            title="Agentic Chatbot"
+            description="built agentic chatbot for travel planning with user preferences"
+            githubUrl="https://github.com/Kalindu-C/agent_with_langgraph"
             listItems={[
-              "Developed a machine learning model to optimize the energy output of solar panels",
-              "Used TensorFlow and Keras for model training, with real-time weather data integration",
-              "Deployed the model on AWS EC2 for continuous performance monitoring",
+              "Built an agent-based chatbot using the LangGraph library as the core framework.",
+              "Developed FastAPI endpoints for backend services and integrated a Streamlit interface for the frontend.",
+              "Designed and integrated multiple tools, including a weather service and a currency converter, to enhance chatbot functionality.",
             ]}
-          /> */}
+          />
 
           { /*TravelMate Project */}
           {/* <ProjectItem
