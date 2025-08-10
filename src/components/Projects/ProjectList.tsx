@@ -11,6 +11,18 @@ const ProjectList: React.FC = () => {
         {/* Add justify-center to center items when there's only one column */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto justify-center">
           
+          <ProjectItem
+            title="Personal Banking Assistance"
+            description="A mobile app that predicts user future expenses and income."
+            // websiteUrl="https://cloudsync.io"
+            githubUrl="https://github.com/Nadil02/bankingApp"
+            listItems={[
+              "Applied various time series forecasting techniques, including Prophet, LSTM, and Temporal Fusion Transformer (TFT), to achieve accurate predictions.",
+              "Developed the backend using FastAPI and the frontend with React Native for a seamless full-stack application.",
+              "Built an agentic chatbot leveraging an open-source LLM called LLaMA, ensuring enhanced user privacy protection.",
+            ]}
+          />
+
           {/* CloudSync Project */}
           {/* <ProjectItem
             title="EDA Project"
@@ -61,17 +73,18 @@ const ProjectList: React.FC = () => {
           />
 
           { /*TravelMate Project */}
-          {/* <ProjectItem
-            title="TravelMate"
-            description="Personalized Travel Itinerary Generator"
-            websiteUrl="https://travelmate.com"
-            githubUrl="https://github.com/johndoe/TravelMate"
+          <ProjectItem
+            title="RAG Based Chat App"
+            description="A web app that utilizes Retrieval-Augmented Generation (RAG) for enhanced conversational AI."
+            // websiteUrl="https://travelmate.com"
+            githubUrl="https://github.com/Kalindu-C/rag"
             listItems={[
-              "Built a web app to generate personalized travel itineraries based on user preferences",
-              "Used Google Maps API and OpenWeather API for location and weather data",
-              "Built with React, Express, and MongoDB for the backend",
+              "Built a Retrieval-Augmented Generation (RAG) pipeline leveraging LangChain to enable efficient knowledge retrieval and generation.",
+              "Developed backend APIs using FastAPI and created an interactive web interface with Streamlit.",
+              "Integrated ChromaDB as the vector database to support fast and scalable similarity search.",
+              "Implemented multi-user support and conversational capabilities to enhance user experience."
             ]}
-          /> */}
+          />
 
         </div>
       </div>
