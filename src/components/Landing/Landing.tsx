@@ -26,13 +26,13 @@ const Landing: React.FC = () => {
                 <i className="fab fa-github hover:scale-110"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/chathuranga-thilakarathna/"
+                href="https://www.linkedin.com/in/kalinduchathuranga/"
                 className="text-2xl mx-2 text-gray-600 hover:text-gray-600"
               >
                 <i className="fab fa-linkedin hover:scale-110"></i>
               </a>
               <a
-                href="/public/My_CV.pdf" // add your CV file to the public folder
+                href="/public/Kalindu Chathuranga.pdf" // add your CV file to the public folder
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl mx-2 text-gray-600 hover:text-gray-600"
@@ -40,7 +40,7 @@ const Landing: React.FC = () => {
                 <i className="ai ai-cv hover:scale-110"></i>
               </a>
               <a
-                href="mailto:johndoe@gmail.com"
+                href="mailto:kctchathuranga@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl mx-2 text-gray-600 hover:text-gray-600"
@@ -52,15 +52,13 @@ const Landing: React.FC = () => {
 
           {/* Biography Section */}
           <div className="w-full md:w-2/3 lg:w-3/4 flex-grow">
-            <h2 className="text-xl md:text-2xl font-light">Biography</h2>
+            <h2 className="text-xl md:text-2xl font-light">Who I Am</h2>
             <p className="text-sm sm:text-base md:text-lg mt-2 font-light">
-            I am a second-year undergraduate specializing in Artificial Intelligence,
-            with strong interests in machine learning, data science, backend, and DevOps. 
-            I have hands-on experience with Python, Java, C, and JavaScript, 
-            and I work with databases such as MySQL, PostgreSQL, and MongoDB. 
-            I develop scalable backend services using FastAPI and build responsive web applications 
-            with modern JavaScript frameworks. My goal is to become a Machine Learning Engineer, 
-            focused on building intelligent, data-driven solutions that deliver real-world impact.
+            Hi, I’m a third-year undergraduate specializing in Artificial Intelligence, 
+            with a strong interest in machine learning and data science. I love exploring how
+            data can be used to solve real-world problems and make life easier, smarter, and 
+            more efficient. My goal is to keep learning, building, and contributing to projects
+            that use AI to create meaningful impact.
             </p>
 
             {/* Sections for Education and Accomplishments */}
@@ -71,8 +69,11 @@ const Landing: React.FC = () => {
                 <hr className="my-2" />
                 <ul className="list-none mt-2 space-y-2">
                   <li className="text-xs md:text-sm text-left">
-                    <i className="fas fa-graduation-cap text-gray-600 pl-1"></i> Bsc. Hons in Artificial Intelligence, 2023 - Present
-                    <p className="text-xs md:text-sm text-gray-600 pl-4 font-light">University of Moratuwa</p>
+                    <i className="fas fa-graduation-cap text-gray-600 pl-1"></i> Undergraduate, 2023 - Present
+                    <p className="text-xs md:text-sm text-gray-600 pl-4 font-light">Bsc. Hons in Artificial Intelligence</p>
+                    <p className="text-xs md:text-sm text-gray-600 pl-4 font-light">University of Moratuwa, Sri Lanka</p>
+                    <i className="fas fa-graduation-cap text-gray-600 pl-1 pt-4"></i> Secondary Education, 2015 - 2022
+                    <p className="text-xs md:text-sm text-gray-600 pl-4 font-light">Dambulla Central College, Sri Lanka</p>
                     {/* <p className="text-xs md:text-sm text-gray-600 pl-7 font-light"></p> (for GPA kind of thing) */}
                   </li>
                   {/* <li className="text-xs md:text-sm">
